@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-container{
+    .container{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+        .navigate{
+            .link{
+                text-decoration: none;
+                font-size: large;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: 700;
+            }
+        }
+    }
+    border: 1px solid gold;
+    background-color: gold;
+    padding: 30px;
+}
