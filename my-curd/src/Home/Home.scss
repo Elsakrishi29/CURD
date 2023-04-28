@@ -3,6 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+.display{
+    width: 80%;
+    margin: auto;
+    h1{
+        margin: 45px 25px 25px 0px;
+    }
+}
+.update{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    .update-1{
+        width: 50%;
+        margin: 20px;
+        input{
+            margin: 25px;
+            padding: 10px;
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid rgba(128, 128, 128, 0.329);
+        }
+    }
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -32,21 +56,24 @@
                 border: 1px solid rgba(128, 128, 128, 0.329);
             }
         }
-        .buttons{
+        .btn{
             display: flex;
             justify-content: space-around;
-            padding: 10px;
-            width: 100%;
-            .button-1{
-                button{
-                    width: 100%;
-                    padding: 15px 40px;
-                    border:1px solid blue;
-                    background-color: blue;
-                    color: aliceblue;
-                    font-family: 'Courier New', Courier, monospace;
-                    font-weight: 900;
-                    font-size: 17px;
+            margin-bottom: 25 px;
+            .buttons{
+                padding: 10px;
+                width: 100%;
+                .button-1{
+                    button{
+                        width: 100%;
+                        padding: 15px 40px;
+                        border:1px solid rgb(24, 223, 190);
+                        background-color: rgb(24, 223, 190);
+                        color: black;
+                        font-family: 'Courier New', Courier, monospace;
+                        font-weight: 900;
+                        font-size: 17px;
+                    }
                 }
             }
         }

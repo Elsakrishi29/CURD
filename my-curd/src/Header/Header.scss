@@ -13,13 +13,31 @@
         .navigate{
             .link{
                 text-decoration: none;
-                font-size: large;
+                font-size: 25px;
                 font-family: 'Courier New', Courier, monospace;
                 font-weight: 700;
+                color: black;
             }
         }
     }
-    border: 1px solid gold;
-    background-color: gold;
+    border: 1px solid rgb(24, 223, 190);
+    background-color: rgb(24, 223, 190);
     padding: 30px;
+    border-bottom: 1px solid black;
+}
+
+.todo-list{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    h1{
+        margin: 90px 0px 25px 0px;
+    }
+    p{
+        span{
+            color: aqua;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 700;
+        }
+    }
 }
